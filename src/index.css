@@ -24,8 +24,7 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 48rem){
-  .directory-menu{
-    flex-direction: column;
-  }
+a {
+  text-decoration: none;
+  color: black;
 }
