@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shoplite/static/css/main.aaf29e61.chunk.css",
+    "main.css": "/shoplite/static/css/main.3b0e753b.chunk.css",
     "main.js": "/shoplite/static/js/main.e7b3ac5f.chunk.js",
     "main.js.map": "/shoplite/static/js/main.e7b3ac5f.chunk.js.map",
     "runtime-main.js": "/shoplite/static/js/runtime-main.a933448f.js",
@@ -8,16 +8,16 @@
     "static/js/2.480b0e33.chunk.js": "/shoplite/static/js/2.480b0e33.chunk.js",
     "static/js/2.480b0e33.chunk.js.map": "/shoplite/static/js/2.480b0e33.chunk.js.map",
     "index.html": "/shoplite/index.html",
-    "precache-manifest.d9d8b284e1edfa063079d74a578dc2f3.js": "/shoplite/precache-manifest.d9d8b284e1edfa063079d74a578dc2f3.js",
+    "precache-manifest.0753a789f4217177c21f867b362fc708.js": "/shoplite/precache-manifest.0753a789f4217177c21f867b362fc708.js",
     "service-worker.js": "/shoplite/service-worker.js",
-    "static/css/main.aaf29e61.chunk.css.map": "/shoplite/static/css/main.aaf29e61.chunk.css.map",
+    "static/css/main.3b0e753b.chunk.css.map": "/shoplite/static/css/main.3b0e753b.chunk.css.map",
     "static/js/2.480b0e33.chunk.js.LICENSE.txt": "/shoplite/static/js/2.480b0e33.chunk.js.LICENSE.txt",
     "static/media/shoplite.ed28accb.svg": "/shoplite/static/media/shoplite.ed28accb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a933448f.js",
     "static/js/2.480b0e33.chunk.js",
-    "static/css/main.aaf29e61.chunk.css",
+    "static/css/main.3b0e753b.chunk.css",
     "static/js/main.e7b3ac5f.chunk.js"
   ]
 }
