@@ -20,18 +20,17 @@ class SignIn extends React.Component{
     handleChange = event => {
         const {value, name } = event.target;
         this.setState({ [name] : value });
-        console.log(name, value);
     }
 
     render() {
         return (
             <section className="sign-in">
-                <h1 className="title">Already has an account?</h1>
+                <h2 className="title">Already has an account?</h2>
                 <span>sign in with your email and password</span>
-                <form onSubmit={this.handleSubmit}>
-                    <FormInput type="email" name="email" value={this.state.email} handleChange={this.handleChange} label="email" required/>
-                    <FormInput type="password" name="password" value={this.state.password} handleChange={this.handleChange} label="password" required/>
-                    <div className = "button">
+                <form onSubmit={this.handleSubmit} className="sign-in-form">
+                    <FormInput type="email" name="email" value={this.state.email} handleChange={this.handleChange} label="email" autoComplete = "email" required/>
+                    <FormInput type="password" name="password" value={this.state.password} handleChange={this.handleChange} label="password" autoComplete = "current-password" required/>
+                    <div className="button">
                         <CustomButton type="submit">SIGN IN</CustomButton>
                         <CustomButton onClick={signInWithGoogle} isGoogleSignIn>SIGN IN WITH GOOGLE</CustomButton>
                     </div>
