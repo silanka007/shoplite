@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/shoplite/static/css/main.407a586c.chunk.css",
-    "main.js": "/shoplite/static/js/main.8c318647.chunk.js",
-    "main.js.map": "/shoplite/static/js/main.8c318647.chunk.js.map",
+    "main.js": "/shoplite/static/js/main.74673a9f.chunk.js",
+    "main.js.map": "/shoplite/static/js/main.74673a9f.chunk.js.map",
     "runtime-main.js": "/shoplite/static/js/runtime-main.a933448f.js",
     "runtime-main.js.map": "/shoplite/static/js/runtime-main.a933448f.js.map",
-    "static/js/2.9f801aeb.chunk.js": "/shoplite/static/js/2.9f801aeb.chunk.js",
-    "static/js/2.9f801aeb.chunk.js.map": "/shoplite/static/js/2.9f801aeb.chunk.js.map",
+    "static/js/2.168f1b65.chunk.js": "/shoplite/static/js/2.168f1b65.chunk.js",
+    "static/js/2.168f1b65.chunk.js.map": "/shoplite/static/js/2.168f1b65.chunk.js.map",
     "index.html": "/shoplite/index.html",
-    "precache-manifest.08cd928acc37318c7f334b2bdc1e3a5a.js": "/shoplite/precache-manifest.08cd928acc37318c7f334b2bdc1e3a5a.js",
+    "precache-manifest.9c4fd87207ad014206d0beb7621310bb.js": "/shoplite/precache-manifest.9c4fd87207ad014206d0beb7621310bb.js",
     "service-worker.js": "/shoplite/service-worker.js",
     "static/css/main.407a586c.chunk.css.map": "/shoplite/static/css/main.407a586c.chunk.css.map",
-    "static/js/2.9f801aeb.chunk.js.LICENSE.txt": "/shoplite/static/js/2.9f801aeb.chunk.js.LICENSE.txt",
+    "static/js/2.168f1b65.chunk.js.LICENSE.txt": "/shoplite/static/js/2.168f1b65.chunk.js.LICENSE.txt",
     "static/media/shoplite.ed28accb.svg": "/shoplite/static/media/shoplite.ed28accb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a933448f.js",
-    "static/js/2.9f801aeb.chunk.js",
+    "static/js/2.168f1b65.chunk.js",
     "static/css/main.407a586c.chunk.css",
-    "static/js/main.8c318647.chunk.js"
+    "static/js/main.74673a9f.chunk.js"
   ]
 }
