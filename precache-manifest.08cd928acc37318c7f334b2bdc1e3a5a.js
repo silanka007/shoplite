@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6a679991a4e767820b271393c33db6d",
+    "revision": "e890185bcf2bf65831dbe81f6f8ee2b1",
     "url": "/shoplite/index.html"
   },
   {
-    "revision": "7f27f6ee49d7098848ed",
-    "url": "/shoplite/static/css/main.3ab80292.chunk.css"
+    "revision": "cae022ab824dcdad04fa",
+    "url": "/shoplite/static/css/main.407a586c.chunk.css"
   },
   {
-    "revision": "48440d711b3c19086915",
-    "url": "/shoplite/static/js/2.fa937510.chunk.js"
+    "revision": "fb9895d8f887e51a01c0",
+    "url": "/shoplite/static/js/2.9f801aeb.chunk.js"
   },
   {
     "revision": "170392c3acad6bbffec743442b1d0ac3",
-    "url": "/shoplite/static/js/2.fa937510.chunk.js.LICENSE.txt"
+    "url": "/shoplite/static/js/2.9f801aeb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f27f6ee49d7098848ed",
-    "url": "/shoplite/static/js/main.5516999b.chunk.js"
+    "revision": "cae022ab824dcdad04fa",
+    "url": "/shoplite/static/js/main.8c318647.chunk.js"
   },
   {
     "revision": "96584633b3df162a8b86",
