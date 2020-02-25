@@ -9,7 +9,7 @@ import './cart-icon.style.scss';
 
 const CartIcon = ({cartDropDownToggle}) => {
     return (
-        <div className="cart-icon" onClick={cartDropDownToggle}>
+        <div className="cart-icon" onClick={ cartDropDownToggle }>
             <ShoppingIcon className="shopping-icon" />
             <span className="item-count">0</span>
         </div>
