@@ -11,6 +11,7 @@ const PaymentCheckout = ({totalPrice}) => {
         console.log(token);
         alert('payment successful');
     }
+    
     return (
         <div className ="stripe-checkout">
             <div className = "instruction">
