@@ -2,14 +2,14 @@ import React from 'react';
 
 import SignIn from '../../components/sign-in';
 import SignUp from '../../components/sign-up';
-import './sign-in-and-sign-up.style.scss';
+import {SignInSignOutStyled} from './sign-in-and-sign-up.style'
 
 const SignInAndSignUp = () => {
     return (
-        <div className="sign-in-and-sign-up">
+        <SignInSignOutStyled>
             <SignIn />
             <SignUp />
-        </div>
+        </SignInSignOutStyled>
     )
 }
 export default SignInAndSignUp;

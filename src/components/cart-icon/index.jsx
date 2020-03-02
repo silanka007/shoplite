@@ -8,14 +8,14 @@ import {cartDropDownToggle} from '../../redux/cart/cart.action';
 
 import { selectCartItemCount } from '../../redux/cart/cart.selector';
 
-import './cart-icon.style.scss';
+import {CartIconStyled, ItemCountStyled} from './cart-icon.style'
 
 const CartIcon = ({ cartDropDownToggle, totalQuantity }) => {
     return (
-        <div className="cart-icon" onClick={ cartDropDownToggle }>
+        <CartIconStyled onClick={ cartDropDownToggle }>
             <ShoppingIcon className="shopping-icon" />
-            <span className="item-count">{totalQuantity}</span>
-        </div>
+            <ItemCountStyled>{totalQuantity}</ItemCountStyled>
+        </CartIconStyled>
     )
 }
 

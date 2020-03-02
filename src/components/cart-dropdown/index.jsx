@@ -9,19 +9,19 @@ import { cartDropDownToggle } from '../../redux/cart/cart.action';
 import CustomButton from '../custom-button';
 import CartItem from '../cart-item';
 
-import './cart-dropdown.style.scss';
+import {CartDropDownStyled, CartItemsStyled} from './cart-dropdown.style';
 
 
 const CartDropdown = ({cartItems, history, dispatch }) => {
     return (
-        <div className="cart-dropdown">
-            <div className = "cart-items">
+        <CartDropDownStyled>
+            <CartItemsStyled>
                 {
                     cartItems.length ?
                     cartItems.map(cartItem => <CartItem key={cartItem.id} item={cartItem} />):
                     (<span className="empty-cart">No Item added to Cart yet</span>)
                 }
-            </div>
+            </CartItemsStyled>
             <CustomButton inverted onClick= {() => {
                 history.push('/checkout');
                 //since connect has dispatch dispatch readily presented in the props items,
@@ -30,7 +30,7 @@ const CartDropdown = ({cartItems, history, dispatch }) => {
                 dispatch(cartDropDownToggle()); 
                 
                 }}>go to checkout</CustomButton>
-        </div>
+        </CartDropDownStyled>
     )
 }
 

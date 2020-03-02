@@ -5,7 +5,6 @@ import { Route } from 'react-router-dom';
 
 import ShopOverview from '../../components/shop-overview';
 
-import './shop.style.scss';
 
 
 const ShopPage = ({match}) => (
