@@ -15,6 +15,10 @@ export const  CollectionItemStyled = styled.div`
         position: absolute;
         top: 255px;
         display: none;
+
+        @media screen and (max-width: 800px){
+            display: block;
+        }
     }
 
     &:hover {
@@ -26,6 +30,10 @@ export const  CollectionItemStyled = styled.div`
           display: flex;
         }
       }
+
+    @media screen and (max-width: 800px){
+        width: 100%;
+    }
 `
 
 export const CollectionItemImageStyled = styled.div`

@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
 export const MenuItemsStyled = styled.div`
     min-width: 30%;
@@ -29,6 +29,10 @@ export const MenuItemsStyled = styled.div`
 
     &:last-child{
         margin-left: 7.5px;
+    }
+
+    @media screen and (max-width: 800px){
+        height: 24rem;
     }
 `
 

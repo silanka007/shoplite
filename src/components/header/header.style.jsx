@@ -8,11 +8,22 @@ export const HeaderStyled = styled.header`
     justify-content: space-between;
     margin-bottom: 2.5rem;
     position: relative;
+
+    @media screen and (max-width: 800px){
+        height: 5rem;
+        padding: 1.5rem;
+
+    }
 `
 
 export const LogoWrapperStyled = styled(Link)`
     height: 100%;
     width: 7rem;
+
+    @media screen and (max-width: 800px){
+        width: 20%;
+        padding: unset;
+    }
 `
 
 export const OptionsStyled = styled.div`
@@ -21,6 +32,11 @@ export const OptionsStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+    @media screen and (max-width: 800px){
+        width: 80%;
+        padding: 2rem 0;
+    }
 `
 
 export const OptionLinkStyled = styled(Link)`

@@ -15,4 +15,8 @@ export const CollectionItemsListingStyled = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
+
+  @media screen and (max-width: 800px){
+    grid-template-columns: 1fr 1fr;
+  }
 `

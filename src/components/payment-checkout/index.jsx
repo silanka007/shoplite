@@ -1,7 +1,7 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 
-import './payment-checkout.style.scss';
+import {StripeContainerStyled, InstructionStyled} from './payment-checkout.style';
 
 
 const PaymentCheckout = ({totalPrice}) => {
@@ -13,12 +13,12 @@ const PaymentCheckout = ({totalPrice}) => {
     }
     
     return (
-        <div className ="stripe-checkout">
-            <div className = "instruction">
+        <StripeContainerStyled>
+            <InstructionStyled>
                 *Please use the following Test credit card to process payment* 
                 <br/>
-                ~ 4242 4242 4242 4242 - Exp - put a later month and year eg 11/20 - CVC 123 ~
-            </div>
+                ~ 4242 4242 4242 4242 - Exp - input any future date - CVC 123 ~
+            </InstructionStyled>
                 <StripeCheckout
                     label = "Pay Now"
                     amount = {stripePrice}
@@ -27,7 +27,7 @@ const PaymentCheckout = ({totalPrice}) => {
                     description = {`You are to pay $ ${totalPrice}`}
                     token = {onToken }
                 />
-        </div>
+        </StripeContainerStyled>
     )
 }
 
